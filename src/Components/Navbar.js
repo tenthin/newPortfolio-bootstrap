@@ -10,6 +10,7 @@ export default function Navbar() {
         <Link to="/">
           <Logo />
         </Link>
+        <div></div>
       </div>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid flex-column align-items-center">

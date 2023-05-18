@@ -1,0 +1,16 @@
+#project-header{
+    color: #1c2b24;
+    background-color: #e1e2e2;
+}
+
+.project-card{
+    /* background-color: #e1e2e2;
+    color: #1c2b24;
+    border-radius: 4px;
+    max-height: 410px; */
+}
+
+.project-body{
+    background-color: #e1e2e2;
+    color: #1c2b24;
+}

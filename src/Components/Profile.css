@@ -1,0 +1,50 @@
+.profile-card{
+    /* border: solid 2px #e1e2e2; */
+    border-radius: 4px;
+}
+
+.profile-card .card{
+    border-radius: 4px;
+    background-color: #e1e2e2;
+    max-height: 500px;
+}
+
+
+.card{
+    /* background-color: #1c2b24;
+    color: #e1e2e2; */
+    /* border: 1px solid #e1e2e2; */
+    /* border: none; */
+    /* border-radius:0; */
+}
+
+.card-body h3{
+    margin-top: 40px;
+}
+
+/* .mypic{
+    position: relative;
+}
+
+.mypic img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: -100px;
+    left: 150px;
+    object-fit: cover;
+
+} */
+
+.carousel-inner{
+    border-radius: 4px;
+}
+
+#name{
+    margin-top: 20px;
+}
+
+#name, #job{
+    color: #1c2b24;
+}

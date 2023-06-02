@@ -32,8 +32,6 @@ export default function Bio() {
             So if you're looking for a frontend developer who's both quirky and
             competent, look no further!
           </li>
-          {/* <li className="list-group-item">A second item</li>
-          <li className="list-group-item">A third item</li> */}
         </ul>
       </div>
     </div>

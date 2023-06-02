@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/logo-thinley-retina600.png";
+import logo from "../image/logo-thinley-retina600-dark.png";
 import "./Logo.css";
 
 export default function Logo() {

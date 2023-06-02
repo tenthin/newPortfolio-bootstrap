@@ -1,18 +1,21 @@
 body{
     background-color:#1c2b24;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Inconsolata', monospace; */
     /* font-family: 'Rubik', sans-serif; */
 }
 
 .container{
     max-width: 1240px;
-    margin: 80px auto;
+    margin:30px auto 0;
 }
 
 .col-md-4{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-height: 700px;
+
 }
 
-.col-md-6{
+.col-md-7{
     position: relative;
 }

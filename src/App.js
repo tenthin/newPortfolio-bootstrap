@@ -15,13 +15,13 @@ function App() {
       {/* <Logo /> */}
       <div className="container">
         <div className="row">
-          <div className="col-md-2 p-0">
+          <div className="col-md-1 p-0">
             <Navbar />
           </div>
           <div className="col-md-4 text-center p-0">
             <Profile />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-7">
             {/* <BrowserRouter> */}
             <Routes>
               <Route path="/" element={<Bio />} />

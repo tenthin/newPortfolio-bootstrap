@@ -36,7 +36,7 @@ export default function Navbar() {
                   <div>
                     <PermIdentityIcon className="profile-icon" />
                   </div>
-                  About
+                  <span class="menu-item">About</span>
                   {/* </a> */}
                 </li>
               </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
                   <div>
                     <WebIcon className="project-icon" />
                   </div>
-                  Projects
+                  <span class="menu-item">Projects</span>
                 </li>
               </Link>
               <Link to="/resume" id="link">
@@ -53,7 +53,7 @@ export default function Navbar() {
                   <div>
                     <InsertDriveFileIcon className="resume-icon" />
                   </div>
-                  Resume
+                  <span class="menu-item">Resume</span>
                 </li>
               </Link>
               <Link to="/contact" id="link">
@@ -61,7 +61,7 @@ export default function Navbar() {
                   <div>
                     <PermPhoneMsgIcon className="contact-icon" />
                   </div>
-                  Contact
+                  <span class="menu-item">Contact</span>
                 </li>
               </Link>
             </ul>

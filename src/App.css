@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
 body{
     background-color:#1c2b24;
     font-family: 'Noto Sans', sans-serif;
@@ -5,9 +7,140 @@ body{
     /* font-family: 'Rubik', sans-serif; */
 }
 
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100dvh;
+    position: relative;
+}
+
 .container{
     max-width: 1240px;
-    margin:30px auto 0;
+    margin:6dvh auto;
+}
+.tt-content{
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 35px 50px;
+    background: #faf6f3;
+    overflow-y:auto;
+    height: 600px;
+    max-height:90%;
+}
+.tt-content h3:after {
+        content: '';
+        position: absolute;
+        left: -30px;
+        right: 0;
+        top: 50px;
+        height: 1px;
+        background: radial-gradient(ellipse at left,#ddd 0%,rgba(255,255,255,0) 70%);
+    }
+.tt-content-card {
+        /* color: #1c2b24; */
+        /* border-radius: 4px; */
+        /* padding-bottom: 20px; */
+        height: auto;
+        /* overflow: hidden; */
+    }
+.tt-content h3 {
+    margin-bottom: 35px;
+}
+
+/** SCROLL BARS **/
+::-webkit-scrollbar-thumb {
+    background: #f13033;
+    border-radius: 5px;
+    
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #c30e10;
+}
+::-webkit-scrollbar-track {
+    background: #ccc;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+.card-body-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.card-body-bottom:before {
+    background: radial-gradient(ellipse at center,#ddd 0%,rgba(255,255,255,0) 70%);
+}
+.download {
+    width: 52%;;
+}
+.hire-me {
+    width:48%;
+}
+.download, .hire-me {
+    position:relative;
+    display: block;
+    text-align: center;
+    float: left;
+    height: 70px;
+    
+}
+.download:hover, .hire-me:hover {
+    background: #e7e3dc;
+}
+.download:hover .bi, .hire-me:hover .bi {
+    background: #1c2b24;
+    transition:0.8s ease;
+}
+.download .text, .hire-me .text {
+    vertical-align: middle;
+}
+.download .text:hover, .hire-me .text:hover {
+    color: #1c2b24;
+}
+.download .bi, .hire-me .bi {
+    width: 30px;
+    height: 30px;
+    background: #f13033;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    margin-left:10px;
+}
+.download:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: -moz-radial-gradient(top,ellipse cover,#ddd 0%,rgba(255,255,255,0) 70%);
+    background: -webkit-radial-gradient(top,ellipse cover,#ddd 0%,rgba(255,255,255,0) 70%);
+    background: radial-gradient(ellipse at top,#ddd 0%,rgba(255,255,255,0) 70%);
+}
+.card-body-bottom a {
+    font-size: 1rem;
+    color: #1c1c1c;
+    text-decoration: none;
+    padding: 20px 0;
+}
+.card-body-bottom:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background: -moz-radial-gradient(center,ellipse cover,#ddd 0%,rgba(255,255,255,0) 70%);
+    background: -webkit-radial-gradient(center,ellipse cover,#ddd 0%,rgba(255,255,255,0) 70%);
+    background: radial-gradient(ellipse at center,#ddd 0%,rgba(255,255,255,0) 70%);
 }
 
 .col-md-4{

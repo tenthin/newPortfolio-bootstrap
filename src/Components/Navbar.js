@@ -6,6 +6,7 @@ import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import WebIcon from "@mui/icons-material/Web";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import PermPhoneMsgIcon from "@mui/icons-material/PermPhoneMsg";
+import Menuicon from "./Menuicon";
 
 export default function Navbar() {
   return (
@@ -16,6 +17,7 @@ export default function Navbar() {
             <Logo />
           </Link>
         </div> */}
+        <Menuicon />
         <div className="container-fluid flex-column align-items-center">
           <button
             class="navbar-toggler"

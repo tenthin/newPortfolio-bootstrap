@@ -20,6 +20,10 @@ body{
     max-width: 1240px;
     margin:6dvh auto;
 }
+.row{
+    justify-content: center;
+}
+
 .tt-content{
     position: absolute;
     left: -10px;
@@ -151,4 +155,5 @@ body{
 
 .col-md-7{
     position: relative;
+    width: 100%;
 }

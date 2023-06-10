@@ -1,9 +1,9 @@
 .navbar {
-    margin: 30px 7px 0;
-    height: 580px;
+    margin: 23px 7px 0;
+    height: 550px;
     background-color: #faf6f3;
     text-align: center;
-    /* border-radius: 4px; */
+    border-radius: 4px;
 }
 
 .navbar-logo{

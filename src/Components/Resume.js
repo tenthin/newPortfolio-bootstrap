@@ -6,9 +6,9 @@ export default function Resume() {
     <>
       <div className="tt-content">
       <div className="tt-content-card card">
-          <h3>
-            <b>R</b>esume
-          </h3>
+          <h2>
+          <code>{`<`}</code> <b>R</b>esume <code>{`/>`}</code>
+          </h2>
         <table className="table table-bordered">
           <tbody>
             <tr>

@@ -35,34 +35,26 @@ export default function Navbar() {
               <Link to="/aboutme" id="link">
                 <li className="nav-item">
                   {/* <a  href="/bio"> */}
-                  <div>
                     <PermIdentityIcon className="profile-icon" />
-                  </div>
                   <span class="menu-item">About</span>
                   {/* </a> */}
                 </li>
               </Link>
               <Link to="/project" id="link">
                 <li className="nav-item">
-                  <div>
-                    <WebIcon className="project-icon" />
-                  </div>
+                  <WebIcon className="project-icon" />
                   <span class="menu-item">Projects</span>
                 </li>
               </Link>
               <Link to="/resume" id="link">
                 <li className="nav-item">
-                  <div>
                     <InsertDriveFileIcon className="resume-icon" />
-                  </div>
                   <span class="menu-item">Resume</span>
                 </li>
               </Link>
               <Link to="/contact" id="link">
                 <li className="nav-item">
-                  <div>
                     <PermPhoneMsgIcon className="contact-icon" />
-                  </div>
                   <span class="menu-item">Contact</span>
                 </li>
               </Link>

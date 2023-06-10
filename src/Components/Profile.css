@@ -2,7 +2,7 @@
     width: 40%;
 }
 .col-md-7 {
-    width: 50%;
+    width: 52%;
     overflow:hidden;
 }
 
@@ -32,6 +32,7 @@ p#job {
     margin: 0 auto 10px;
     padding: 2px;
 }
+
 .profile-img {
     position: absolute;
     top: -65px;
@@ -54,7 +55,7 @@ p#job {
     color: #f13033;
 }
 #carouselExampleAutoplaying {
-    height: 360px;
+    height: 320px;
 }
 .carousel-item img{
     width:100%;
@@ -65,7 +66,7 @@ p#job {
     border-radius: 0;;
 }
 
-.card-body h3{
+.card-body h2{
     margin-top: 40px;
 }
 
@@ -86,9 +87,6 @@ p#job {
 
 #name {
     margin-top: 40px;
-    font-family: 'Shippori Mincho';
-    font-size: 2.12rem;
-    font-weight: 500;
 }
 
 #name, #job{

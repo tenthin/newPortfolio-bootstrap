@@ -6,9 +6,9 @@ export default function Bio() {
     <div className="tt-content">
       <div className="tt-content-card card">
         {/* <div className="card-header"> */}
-        <h3>
-          <b>B</b>iography
-        </h3>
+        <h2>
+          <code>{`<`}</code> <b>A</b>bout Me <code>{`/>`}</code>
+          </h2>
         {/* </div> */}
         <p>
           <b>Hello! I'm Tenzin Thinley</b>.{" "}

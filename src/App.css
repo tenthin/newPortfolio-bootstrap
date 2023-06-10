@@ -6,7 +6,23 @@ body{
     /* font-family: 'Inconsolata', monospace; */
     /* font-family: 'Rubik', sans-serif; */
 }
-
+h1, h2, h3, h4 {
+    font-family: 'Shippori Mincho';
+    font-weight: 500;
+}
+h1 {
+    font-size: 2.12rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.7rem;
+}
+code {
+    font-size: inherit;
+    color: #f13033;
+}
 .App {
     display: flex;
     justify-content: center;
@@ -36,7 +52,10 @@ body{
     height: 600px;
     max-height:90%;
 }
-.tt-content h3:after {
+.tt-content h2 {
+    margin-bottom: 3rem;
+}
+.tt-content h2:after {
         content: '';
         position: absolute;
         left: -30px;
@@ -52,11 +71,11 @@ body{
         height: auto;
         /* overflow: hidden; */
     }
-.tt-content h3 {
-    margin-bottom: 35px;
-}
 
 /** SCROLL BARS **/
+::-webkit-scrollbar {
+    width: 10px;
+}
 ::-webkit-scrollbar-thumb {
     background: #f13033;
     border-radius: 5px;
@@ -68,9 +87,7 @@ body{
 ::-webkit-scrollbar-track {
     background: #ccc;
 }
-::-webkit-scrollbar {
-    width: 10px;
-}
+
 
 
 .card-body-bottom {

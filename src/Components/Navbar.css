@@ -31,7 +31,7 @@
     border-bottom: solid 1px #cfcece;
 }
 
-#link:hover{
+#link:hover, #link:active{
     color: #f13033;
     border-radius: 4px;
     font-weight:bold;

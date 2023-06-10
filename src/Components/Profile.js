@@ -41,11 +41,11 @@ export default function Profile() {
         </div> */}
         <div className="card-body">
           <div class="profile-img"><img src={myPhoto} alt="Thinley" /></div>
-          <h3 className="title" id="name">
+          <h1 className="title" id="name">
             Tenzin Thinley
-          </h3>
+          </h1>
           <p className="card-text" id="job">
-            Frontend Developer
+          <code>{`{`}</code> Frontend Developer <code>{`}`}</code>
           </p>
           <div class="social-icons">
             <a href="#" target="_blank"><i class="bi bi-github"></i></a>

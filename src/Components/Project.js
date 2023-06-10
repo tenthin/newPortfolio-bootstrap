@@ -7,9 +7,9 @@ export default function Project() {
   return (
     <div className="tt-content">
       <div className="tt-content-card card">
-        <h3>
-          <b>P</b>roject
-        </h3>
+        <h2>
+        <code>{`<`}</code> <b>P</b>rojects <code>{`/>`}</code>
+        </h2>
       <div className="project-body row row-cols-1 row-cols-md-2 g-4">
         <div className="col">
           <div className="card" id="img-card">

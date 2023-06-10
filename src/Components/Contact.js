@@ -5,9 +5,9 @@ export default function Contact() {
   return (
     <div className="tt-content">
       <div className="tt-content-card card">
-          <h3>
-            <b>C</b>ontact
-          </h3>
+          <h2>
+          <code>{`<`}</code> <b>C</b>ontact Me <code>{`/>`}</code>
+          </h2>
       <div className="contact-form">
         <div className="row g-2">
           <div className="col-md">

@@ -3,16 +3,16 @@ import "./Bio.css";
 
 export default function Bio() {
   return (
-    <div className="aboutme">
-      <div className="aboutme-card card">
-        <div className="card-header">
-          <h3>
+    <div className="tt-content">
+      <div className="tt-content-card card">
+        {/* <div className="card-header"> */}
+        <h3>
             <b>B</b>iography
           </h3>
-        </div>
-        <ul className="list-group ">
-          <li className="list-group-item">
-            <b>Hello! I'm Tenzin Thinley</b>. Frontend developer from India.
+        {/* </div> */}
+            <p><b>Hello! I'm Tenzin Thinley</b>. </p>
+            <p>Frontend developer from India.
+            </p>
             <p>
               A self-taught developer who happens to have a masters in physics.
             </p>
@@ -29,10 +29,19 @@ export default function Bio() {
               having technical skills, it means being a team player, a problem
               solver, and someone who's always looking for ways to improve.{" "}
             </p>
+            <p>
             So if you're looking for a frontend developer who's both quirky and
             competent, look no further!
-          </li>
-        </ul>
+            </p>
+            <p>
+            So if you're looking for a frontend developer who's both quirky and
+            competent, look no further!
+            </p>
+            <p>
+            So if you're looking for a frontend developer who's both quirky and
+            competent, look no further!
+            </p>
+            
       </div>
     </div>
   );

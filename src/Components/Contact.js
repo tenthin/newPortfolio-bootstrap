@@ -3,14 +3,11 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className="contact">
-      <div className="contact-card card">
-        <div className="card-header">
+    <div className="tt-content">
+      <div className="tt-content-card card">
           <h3>
             <b>C</b>ontact
           </h3>
-        </div>
-      </div>
       <div className="contact-form">
         <div className="row g-2">
           <div className="col-md">
@@ -53,6 +50,7 @@ export default function Contact() {
       <button type="button" class="btn btn-primary ">
         Send
       </button>
+      </div>
     </div>
   );
 }

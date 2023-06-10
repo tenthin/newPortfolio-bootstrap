@@ -5,12 +5,11 @@ import project2 from "../image/project2.png";
 
 export default function Project() {
   return (
-    <div className="project-card">
-      <div className="card-header card" id="project-header">
+    <div className="tt-content">
+      <div className="tt-content-card card">
         <h3>
           <b>P</b>roject
         </h3>
-      </div>
       <div className="project-body row row-cols-1 row-cols-md-2 g-4">
         <div className="col">
           <div className="card" id="img-card">
@@ -54,6 +53,7 @@ export default function Project() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

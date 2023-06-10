@@ -4,12 +4,11 @@ import "./Resume.css";
 export default function Resume() {
   return (
     <>
-      <div className="resume">
-        <div className="card-header card">
+      <div className="tt-content">
+      <div className="tt-content-card card">
           <h3>
             <b>R</b>esume
           </h3>
-        </div>
         <table className="table table-bordered">
           <tbody>
             <tr>
@@ -64,6 +63,7 @@ export default function Resume() {
           </tr> */}
           </tbody>
         </table>
+      </div>
       </div>
     </>
   );

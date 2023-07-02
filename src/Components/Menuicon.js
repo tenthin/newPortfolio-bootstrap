@@ -1,9 +1,9 @@
 import React from "react";
 import "./Menuicon.css";
 
-function Menuicon() {
+function Menuicon({ onClick }) {
   return (
-    <div className="hamburger-wrapper">
+    <div className="hamburger-wrapper" onClick={onClick}>
       <div className="hamburger-icon">
         <span></span>
         <span></span>

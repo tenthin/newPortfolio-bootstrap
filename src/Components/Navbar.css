@@ -11,8 +11,52 @@
     border-radius: 4px;
 }
 
-.navbar-logo{
+/* .navbar-logo{
     width:5.2rem;
+} */
+
+/* Hamburger menu navbar */
+.close-icon:hover {
+    color: red;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+.hamburger-nav{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 15%;
+    min-height: 100%;
+    display: block;
+    z-index: 98;
+    background-color: #faf6f3;
+    padding-top: 80px;
+    transition: 0.4s;
+}
+
+.hamburger-nav.is-active{
+    left: 0;
+}
+
+.hamburger-nav a{
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px 16px;
+    color: #1c2b24;
+    text-decoration: none;
+}
+
+.hamburger-nav a:hover{
+    color: #f13033;
+}
+
+.hamburger-nav a:before {
+    content: none;
 }
 
 .nav-item{
